@@ -1,0 +1,311 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', 'sans-serif';
+}
+body{
+    background-color:rgb(228, 219, 207)
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(228, 219, 207);
+    padding:17px;
+    box-shadow: 0px 2px 1px 2px rgb(173, 173, 173);
+}
+nav.logo{  
+    margin-left: 22px;
+    font-size: 44px;
+
+}
+ul{
+    margin-right: 45px;
+    margin-top: 7px;
+
+}
+
+nav ul li{
+    list-style: none
+}
+ul li a{
+    margin: 22px;
+    font-size: 22px;
+}
+ul li i{
+    font-size: 22px;
+}
+ul li #home{
+    color: rgb(25, 167, 167)
+}
+ul li a:hover{
+    border-bottom: 2px solid rgb(3, 149, 149);
+    cursor: pointer;
+}
+ul li img:hover{
+    color: grey;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+
+}
+.main.mainText{
+    margin-top: 144px;
+}
+
+.main .mainText h2{
+    font-size: 50px;
+}
+.mainText .top{
+    font-size: 64px;
+     color: rgb(4, 138, 138);
+}
+
+.mainText button{
+    width: 145px;
+    height:40px;
+    background-color: rgb(4, 140, 140);
+    border: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 24px;
+}
+.mainText p{
+    margin-top: 24px;
+}
+.mainText button:hover{
+     border: 2px solid rgb(3, 128, 128);
+     background-color: transparent;
+     color: rgb(2, 121, 121);
+}
+.head h1{
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+
+}
+.head span{
+    color: rgb(2, 164, 164);
+}
+.card{
+    display:flex;
+    justify-content: center;
+}
+.card .crd{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-inline: 11px ;
+    padding: 22px;
+}
+.card .img{
+    width: 85%;
+    
+}
+.crdText{
+    margin-left: 16px;
+    padding: 8px;
+    margin-top: 11px;
+}
+.crdText button{
+    width: 110px;
+    height: 33px;
+    border: none;
+    background-color: rgb(4, 195, 195);
+    color:white;
+    font-size: 19px;
+    margin-top: 11px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin-inline: 22px;
+    width:500px;
+    height:300px;
+    border-radius: 11px;
+    margin-left: 22px;
+    margin-bottom: 22px;
+}
+.blog:hover{
+    transition: 0.6s ease;
+    width:520px;
+    height:320px
+}
+.blog img{
+    padding: 22px;
+    width: 85%;
+}
+.blogText{
+    padding:22px;
+    margin-top: 33px;
+    
+    font-size: 18px;
+}
+.blogText a{
+    width: 130;
+    padding:4px;
+    height:18px;
+    background-color: rgb(4, 181, 181);
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 18px;
+    margin-top: 22px;
+    position: relative;
+    top: 33px;
+}
+.letter{
+    background-color: rgb(4, 4, 86);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding:44px;
+}
+.inp{
+    display:flex;
+
+}
+.inp input{
+    width: 330px;
+    height: 30px;
+    font-size: 18px;
+    outline: none;
+    border:none;
+}
+.inp button{
+    width:100px;
+    height: 30px;
+    background-color: rgb(4, 181, 181);
+    color: white;
+    border:none;
+    font-size: larger;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer .footerText{
+    margin-inline: 85px;
+}
+.footer .footerText p{
+     margin-top: 11px;
+     font-size: 20px;
+}
+.aboutus{
+    background-color:rgb(4, 4, 86);
+    color: white;
+    padding: 56px;
+    font-size: 22px;
+}
+.aboutme{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    background-color:#fff;
+    padding: 33px;
+    margin-left: 27%;
+    margin-top: 1%;
+}
+
+.aboutme p{
+    font-size: 20px;
+}
+.about .aboutme {
+    background-color: #fff;
+}
+.contactus{
+    background-color:rgb(4, 4, 86);
+    color: white;
+    padding: 56px;
+    font-size: 22px;
+}
+.contactme{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    padding: 33px;
+    background-color: #fff;
+    margin-left: 16%;
+    margin-top: 3%;
+}
+
+
+.contactText p{
+    font-size: 30px;
+    
+}   
+.contactText{
+    background-color: #fff;
+}
+
+.contactText h1{
+    color: rgb(4, 4, 86)
+}
+.form{    
+    text-align:center;
+    margin-top: 2%;   
+}
+.form input{
+    font-size: 20px;
+}
+.form h1{
+    color: rgb(4, 4, 86)
+}
+.form input{
+    width:300px;
+    height: 33px;
+    margin-top: 11px;
+    padding: 5px;
+}
+.form button{
+    background-color: rgb(4, 4, 86);
+    color:white;
+    width: 100px;
+    height:35px ;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-size: 22px;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+
+}
+.cart img{
+    width:500px;
+    height: 500px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    
+}
+.cartText{
+    padding: 22px;
+    margin-top: 22px;
+}
+.cartText p{
+    margin-top: 22px;
+    font-size: 20px;
+}
+.cartText h2{
+    margin-top: 11px;
+}
+.cartText .buy button{
+    background-color: rgb(218, 178, 5);
+    color: white;
+    border: none;
+    width:140px;
+    height:40px;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+.cartText .back button{
+    background-color: rgb(3, 74, 12);
+    color: white;
+    border: none;
+    width:140px;
+    height:40px;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+}
